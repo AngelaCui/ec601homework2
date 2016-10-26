@@ -11,8 +11,8 @@
         android:text="username:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24px"
-        />
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
     <EditText
         android:id="@+id/account"
         android:layout_width="wrap_content"
@@ -27,7 +27,8 @@
         android:text="password:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
     <EditText
         android:id="@+id/pwd"
         android:layout_width="wrap_content"
@@ -39,6 +40,7 @@
 </TableRow>
 <TableRow android:layout_marginTop="20px">
     <TextView />
+
     <Button
         android:id="@+id/login"
         android:text="Log In"
@@ -46,11 +48,7 @@
         android:layout_height="wrap_content"
         android:onClick="sendMessage"
         />
-    <Button
-        android:id="@+id/quit"
-        android:text="Exit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
     <TextView />
 </TableRow>
 </TableLayout>

@@ -26,4 +26,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void nextpage(View view){
+        Intent intent = new Intent(this, Accelerometer.class);
+        startActivity(intent);
+    }
 }

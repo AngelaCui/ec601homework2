@@ -1,5 +1,6 @@
 package com.example.cui.myfirstapp;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -35,7 +36,7 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.accelerometer);
         sm = (SensorManager) getSystemService(SENSOR_SERVICE);
 
         accelerometer = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -48,6 +49,7 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
+
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {

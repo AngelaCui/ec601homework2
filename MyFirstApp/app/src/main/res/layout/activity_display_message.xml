@@ -7,7 +7,32 @@ android:layout_height="fill_parent"
 android:gravity="center_vertical"
 android:stretchColumns="0,3">
 
-<TableRow android:layout_marginTop="20px">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView />
+        <TextView
+            android:text="welcome! "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp" />
+        <TextView />
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20px">
     <TextView />
     <Button
         android:id="@+id/accelerometion"
@@ -24,4 +49,5 @@ android:stretchColumns="0,3">
 
     <TextView />
 </TableRow>
+
 </TableLayout>

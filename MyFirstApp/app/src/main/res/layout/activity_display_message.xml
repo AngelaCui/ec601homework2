@@ -10,6 +10,12 @@ android:stretchColumns="0,3">
 <TableRow android:layout_marginTop="20px">
     <TextView />
     <Button
+        android:id="@+id/accelerometion"
+        android:text="Show Accelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nextpage"/>
+    <Button
         android:id="@+id/quit"
         android:text="Exit"
         android:layout_width="wrap_content"

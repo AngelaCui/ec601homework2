@@ -20,8 +20,5 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
-    public void exitpage(View view){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
+
 }

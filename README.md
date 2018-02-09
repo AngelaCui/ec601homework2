@@ -1,6 +1,8 @@
-# EC601 Homework2
-### Kexuan Cui
-### cuikx@bu.edu
+# Android Application displaying real-time acceleration
+
+#### EC601 Homework2
+#### Kexuan Cui
+#### cuikx@bu.edu
 
 ## Introduction
 This is a simple Android application  which can show the real-time acceleration of the Android phone. 
